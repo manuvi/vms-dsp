@@ -1,3 +1,9 @@
+/*
+    Library Utilities - Copyright (C) 2025 Manuel Virgilio
+    This file is part of a project licensed under the terms
+    of the LGPLv3 + Attribution. See LICENSE for details.
+*/
+
 #pragma once
 
 #include <algorithm>
