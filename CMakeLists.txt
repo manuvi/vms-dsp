@@ -38,9 +38,8 @@ include(FetchContent)
 
 # Bring in the vms-core dependency.
 FetchContent_Declare(vms_core
-    #GIT_REPOSITORY https://github.com/manuvi/vms-core.git
-    #GIT_TAG main
-    SOURCE_DIR "/home/manuel/Progetti/VMS/AudioMixerEngine/Libraries/vms-core"
+    GIT_REPOSITORY https://github.com/manuvi/vms-core.git
+    GIT_TAG main
 )
 FetchContent_MakeAvailable(vms_core)
 
